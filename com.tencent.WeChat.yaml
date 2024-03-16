@@ -29,8 +29,8 @@ finish-args:
   - --filesystem=xdg-download
   - --filesystem=xdg-music
   - --filesystem=xdg-pictures
-  - --persist=.xwechat
-  - --persist=xwechat_files
+  - --filesystem=xdg-documents
+  - --filesystem=xdg-config/fontconfig
   # IME
   # - --env=QT_IM_MODULE=
   # Hidpi scale
