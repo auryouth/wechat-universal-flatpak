@@ -26,13 +26,6 @@ finish-args:
   # - --talk-name=org.gnome.Shell.Screenshot
   # - --talk-name=org.kde.kwin.Screenshot
   # Files
-  - --filesystem=xdg-download
-  - --filesystem=xdg-music
-  - --filesystem=xdg-pictures
-  - --filesystem=xdg-documents
-  - --filesystem=xdg-config/fontconfig
-  - --persist=.xwechat
-  - --persist=xwechat_files
   # IME
   - --env=QT_IM_MODULE=fcitx
   # Hidpi scale
