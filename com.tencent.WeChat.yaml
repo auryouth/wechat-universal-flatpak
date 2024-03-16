@@ -32,11 +32,11 @@ finish-args:
   - --filesystem=xdg-documents
   - --filesystem=xdg-config/fontconfig
   # IME
-  # - --env=QT_IM_MODULE=
+  - --env=QT_IM_MODULE=fcitx
   # Hidpi scale
   - --env=QT_AUTO_SCREEN_SCALE_FACTOR=1
   # Fix `Could not find the Qt platform plugin "wayland"`
-  - --unset-env=QT_QPA_PLATFORM
+  - --env=QT_QPA_PLATFORM=xcb
 
 cleanup:
   - "/include"
