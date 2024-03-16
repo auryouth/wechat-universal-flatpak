@@ -31,6 +31,8 @@ finish-args:
   - --filesystem=xdg-pictures
   - --filesystem=xdg-documents
   - --filesystem=xdg-config/fontconfig
+  - --persist=.xwechat
+  - --persist=xwechat_files
   # IME
   - --env=QT_IM_MODULE=fcitx
   # Hidpi scale
